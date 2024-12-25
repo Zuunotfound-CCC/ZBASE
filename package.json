@@ -1,0 +1,35 @@
+{
+  "name": "Zbase",
+  "version": "1.0.0",
+  "main": "index.js",
+  "_moduleAliases": {
+    "@root": ".",
+    "@config": "./config",
+    "@lib": "./lib",
+    "@utils": "./utils"
+  },
+  "scripts": {
+    "dev": "NODE_ENV=development nodemon index.js",
+    "reset": "rm -rf ./sezz && node index.js",
+    "enc": "npx nexenc",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.9",
+    "inquirer": "^8.2.6",
+    "jimp": "^0.16.13",
+    "link-preview-js": "^3.0.12",
+    "module-alias": "^2.2.3",
+    "moment-timezone": "^0.5.46",
+    "nexenc": "^1.0.1",
+    "open": "^10.1.0",
+    "qrcode-terminal": "^0.12.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
